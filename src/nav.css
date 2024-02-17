@@ -11,7 +11,7 @@
 }
 
 .Nav_blue{
-    background-color: rgb(51, 19, 192);
+    background-color: black;
     color: white;
 }
 
@@ -36,5 +36,31 @@
 
 .prof_blue{
     background-color: white;
-    color:rgb(51, 19, 192) ;
+    color:black ;
+}
+
+@media (max-width: 600px) {
+    .Nav {
+        max-width: 600px;
+    }
+
+
+    .profile {
+        margin-top: 10px;
+        width: 30px;
+        height: 30px;
+        background-color: black;
+        color:white ;
+        border-radius: 2px;
+        font-size: 15px;
+        border-color: white;
+        border-radius: 50%;
+        cursor: pointer;
+        right: 10%;
+    }
+
+    .prof_blue {
+        background-color: white;
+        color:black ;
+    }
 }

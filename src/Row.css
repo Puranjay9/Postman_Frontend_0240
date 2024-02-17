@@ -30,3 +30,22 @@
 .row__posterLarge{
     max-height: 300px;
 }
+
+@media screen and (max-width: 600px) {
+    .row__posters {
+        padding: 10px;
+    }
+
+    .row__poster {
+        max-height: 130px;
+        margin-right: 10px;
+    }
+
+    .row__poster:hover {
+        transform: scale(1.05);
+    }
+
+    .row__posterLarge {
+        max-height: 200px;
+    }
+}
